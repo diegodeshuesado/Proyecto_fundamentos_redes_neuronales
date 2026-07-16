@@ -39,3 +39,9 @@ Thumbs.db
 
 # Sistema
 .env
+
+# Carpetas de librerías accidentalmente en la raíz
+/torch/
+/torchvision/
+/yaml/
+/np/
