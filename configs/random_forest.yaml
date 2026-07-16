@@ -1,0 +1,12 @@
+# Random Forest - clasificacion/regresion tabular
+task: classification
+model: random_forest
+dataset: data/test_clf.csv
+target: hypertension
+seed: 42
+device: cpu
+
+# Hiperparametros propios
+n_estimators: 100
+max_depth: null
+min_samples_split: 2

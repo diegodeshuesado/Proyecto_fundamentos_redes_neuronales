@@ -1,0 +1,14 @@
+# YOLO v8 - deteccion de objetos (Ultralytics)
+task: detection
+model: yolo
+data: /datos/Proyecto_fundamentos/data/faces/data.yaml
+seed: 42
+device: 0
+
+# Hiperparametros propios
+epochs: 50
+batch: 16
+imgsz: 640
+
+# Alternativa: usar pesos personalizados (comentar 'model' de arriba)
+# model: weight_y12/yolov12l.pt

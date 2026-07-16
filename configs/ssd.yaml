@@ -1,0 +1,11 @@
+# SSD300-VGG16 - single-shot detector (Liu et al. 2016)
+# NOTA: SSD redimensiona todo a 300x300 internamente
+task: detection
+model: ssd
+data: /datos/Proyecto_fundamentos/data/faces/data.yaml
+seed: 42
+device: 0
+
+# Hiperparametros propios
+epochs: 20
+batch: 8

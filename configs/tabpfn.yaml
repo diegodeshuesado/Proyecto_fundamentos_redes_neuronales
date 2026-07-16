@@ -1,0 +1,8 @@
+# TabPFN - foundation model para tabular (Friburgo 2022)
+# NOTA: Solo clasificacion. Maximo ~10K filas y ~100 features.
+task: classification
+model: tabpfn
+dataset: data/test_clf.csv
+target: hypertension
+seed: 42
+device: 0

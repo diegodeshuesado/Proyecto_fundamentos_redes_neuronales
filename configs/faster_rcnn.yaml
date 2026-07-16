@@ -1,0 +1,10 @@
+# Faster R-CNN - two-stage detector (Ren et al. 2015)
+task: detection
+model: faster_rcnn
+data: /datos/Proyecto_fundamentos/data/faces/data.yaml
+seed: 42
+device: 0
+
+# Hiperparametros propios
+epochs: 20
+batch: 4    # OJO: Faster R-CNN consume mucha VRAM

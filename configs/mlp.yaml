@@ -1,0 +1,15 @@
+# MLP - red neuronal simple con PyTorch
+task: classification
+model: mlp
+dataset: data/test_clf.csv
+target: hypertension
+seed: 42
+device: 0
+
+# Hiperparametros propios
+hidden_dims: [128, 64]
+dropout: 0.2
+learning_rate: 0.001
+epochs: 100
+batch: 32
+patience: 10

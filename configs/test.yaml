@@ -1,0 +1,6 @@
+task: classification
+model: xgboost
+dataset: data/dummy.csv
+target: hypertension
+epochs: 100
+batch: 32

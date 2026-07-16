@@ -1,0 +1,13 @@
+# XGBoost - clasificacion/regresion tabular
+task: classification
+model: xgboost
+dataset: data/test_clf.csv
+target: hypertension
+seed: 42
+device: 0    # 0 para GPU, 'cpu' para CPU
+
+# Hiperparametros propios
+n_estimators: 100
+max_depth: 6
+learning_rate: 0.1
+subsample: 1.0

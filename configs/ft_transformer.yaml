@@ -1,0 +1,13 @@
+# FT-Transformer - Transformer para tabular (Yandex 2021)
+task: classification
+model: ft_transformer
+dataset: data/test_clf.csv
+target: hypertension
+seed: 42
+device: 0
+
+# Hiperparametros propios
+epochs: 50
+batch: 64
+patience: 10
+learning_rate: 0.001

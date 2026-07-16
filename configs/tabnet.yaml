@@ -1,0 +1,12 @@
+# TabNet - red con atencion secuencial (Google 2019)
+task: classification
+model: tabnet
+dataset: data/test_clf.csv
+target: hypertension
+seed: 42
+device: 0
+
+# Hiperparametros propios (defaults sensatos)
+epochs: 100
+batch: 64
+patience: 10

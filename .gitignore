@@ -1,0 +1,41 @@
+# Entorno virtual
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Runs (resultados de experimentos - pesan mucho)
+runs/
+
+# Datasets (pesan mucho, no van a GitHub)
+data/faces/
+data/ev_maintenance.csv
+data/motor.csv
+data/ev_energy.csv
+data/dummy.csv
+data/test_clf.csv
+Imagenes_exportadas_YOLO_with_Images/
+
+# Pesos preentrenados (grandes)
+*.pt
+*.pkl
+*.pth
+*.zip
+weights/
+yolov8n.pt
+
+# Cache de pip
+pip-cache/
+tmp/
+
+# VSCode
+.vscode/
+
+# Logs y temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Sistema
+.env
